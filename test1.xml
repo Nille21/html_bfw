@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<krankenhaus>
+    <name>Filderklinik</name>
+    <patient>
+        <name>Paul Kalupke</name>
+        <temperatur>42</temperatur>
+        <zimmer>25</zimmer>
+    </patient>
+
+    <patient>
+        <name>Tom Ate</name>
+        <temperatur>41</temperatur>
+        <zimmer>26</zimmer>
+    </patient>
+
+    <patient>
+        <name>Karl Hodenfuchs</name>
+        <temperatur>40</temperatur>
+        <zimmer>22</zimmer>
+    </patient>
+
+    <patient>
+        <name>Anette Halbestd</name>
+        <temperatur>38</temperatur>
+        <zimmer>24</zimmer>
+    </patient>
+</krankenhaus>
