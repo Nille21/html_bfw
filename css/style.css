@@ -21,3 +21,11 @@ body {
 img {
     width: 49vw;
 }
+
+.gruen {
+    color: rgb(26, 209, 26);
+}
+
+.big {
+    font-size: 2em;
+}
