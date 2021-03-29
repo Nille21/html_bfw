@@ -1,0 +1,13 @@
+#groß {
+    font-size: 3.5em;
+}
+
+#big {
+    font-size: 2em;
+}
+
+img {
+    width: 20em;
+    height: auto;
+    float: right;
+}
