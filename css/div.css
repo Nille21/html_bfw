@@ -11,24 +11,70 @@
     background-color: orangered;
 }
 
-.center{
+.menu {
+    float: left;
+    height: 99%;
+    width: 20%;
+    background-color: rgb(175, 174, 174);
+    outline: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center {
     float: left;
     height: 75%;
     width: 100%;
     background-color: blue;
 }
 
+.inhalt {
+    float: left;
+    height: 100%;
+    width: 70%;
+    background-color: rgb(86, 172, 212);
+    outline: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.side {
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-color: darkslateblue;
+}
+
+.ma {
+    float: left;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(143, 143, 209);
+    outline: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .footer {
     float: left;
     height: 10%;
     width: 100%;
-    background-color: green;
+    background-color: rgb(29, 160, 29);
+    outline: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.menu {
-    float: left;
-    height: 100%;
-    width: 20%;
-    background-color: grey;
-    outline: solid;
+p {
+    color: white;
+    font-size: 2em;
 }
+
