@@ -1,3 +1,9 @@
+.body {
+    float: left;
+    height: 99vh;
+    width: 99vw;
+}
+
 .head {
     float: left;
     height: 15%;
@@ -17,4 +23,12 @@
     height: 10%;
     width: 100%;
     background-color: green;
+}
+
+.menu {
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: grey;
+    outline: solid;
 }
