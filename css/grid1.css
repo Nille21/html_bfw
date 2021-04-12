@@ -4,12 +4,12 @@
 }
 
 .col-1 {
-    width: 16,66666666666667%;
+    width: 16.66666666666667%;
     height: auto;
 }
 
 .col-2 {
-    width: 33,33333333333333%;
+    width: 33.33333333333333%;
     height: auto;
 }
 
@@ -19,12 +19,12 @@
 }
 
 .col-4 {
-    width: 56,66666666666667%;
+    width: 56.66666666666667%;
     height: auto;
 }
 
 .col-5 {
-    width: 83,33333333333333%;
+    width: 83.33333333333333%;
     height: auto;
 }
 
@@ -34,6 +34,6 @@
 }
 
 .row {
-    width: 95vh;
+    width: 95vw;
     height: auto;
 }
