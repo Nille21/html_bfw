@@ -8,6 +8,8 @@ div {
     border: thin solid grey;
 }
 
+/* Große Bildschirme */
+
 .col-1 {
     width: 16.66666666666667%;
     height: auto;
@@ -40,5 +42,69 @@ div {
 
 .row {
     width: 95vw;
+    height: auto;
+}
+
+/* Mittlere Bildschirme */
+
+.col-1 {
+    width: 33.33333333333333%;
+    height: auto;
+}
+
+.col-2 {
+    width: 33.33333333333333%;
+    height: auto;
+}
+
+.col-3 {
+    width: 66.66666666666667%;
+    height: auto;
+}
+
+.col-4 {
+    width: 66.66666666666667%;
+    height: auto;
+}
+
+.col-5 {
+    width: 100%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
+    height: auto;
+}
+
+/* Schmale Bildschirme */
+
+.col-1 {
+    width: 100%;
+    height: auto;
+}
+
+.col-2 {
+    width: 100%;
+    height: auto;
+}
+
+.col-3 {
+    width: 100%;
+    height: auto;
+}
+
+.col-4 {
+    width: 100%;
+    height: auto;
+}
+
+.col-5 {
+    width: 100%;
+    height: auto;
+}
+
+.col-6 {
+    width: 100%;
     height: auto;
 }
