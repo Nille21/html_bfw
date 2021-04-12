@@ -8,77 +8,13 @@ div {
     border: thin solid grey;
 }
 
-/* Große Bildschirme */
-
-.col-1 {
-    width: 16.66666666666667%;
-    height: auto;
-}
-
-.col-2 {
-    width: 33.33333333333333%;
-    height: auto;
-}
-
-.col-3 {
-    width: 50%;
-    height: auto;
-}
-
-.col-4 {
-    width: 56.66666666666667%;
-    height: auto;
-}
-
-.col-5 {
-    width: 83.33333333333333%;
-    height: auto;
-}
-
-.col-6 {
-    width: 100%;
-    height: auto;
-}
-
 .row {
     width: 95vw;
     height: auto;
 }
 
-/* Mittlere Bildschirme */
-
-.col-1 {
-    width: 33.33333333333333%;
-    height: auto;
-}
-
-.col-2 {
-    width: 33.33333333333333%;
-    height: auto;
-}
-
-.col-3 {
-    width: 66.66666666666667%;
-    height: auto;
-}
-
-.col-4 {
-    width: 66.66666666666667%;
-    height: auto;
-}
-
-.col-5 {
-    width: 100%;
-    height: auto;
-}
-
-.col-6 {
-    width: 100%;
-    height: auto;
-}
-
 /* Schmale Bildschirme */
-
+/* Mobile First */
 .col-1 {
     width: 100%;
     height: auto;
@@ -107,4 +43,74 @@ div {
 .col-6 {
     width: 100%;
     height: auto;
+}
+
+@media (min-width: 80em) {
+
+    /* Große Bildschirme */
+
+    .col-1 {
+        width: 16.66666666666667%;
+        height: auto;
+    }
+
+    .col-2 {
+        width: 33.33333333333333%;
+        height: auto;
+    }
+
+    .col-3 {
+        width: 50%;
+        height: auto;
+    }
+
+    .col-4 {
+        width: 56.66666666666667%;
+        height: auto;
+    }
+
+    .col-5 {
+        width: 83.33333333333333%;
+        height: auto;
+    }
+
+    .col-6 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 50em) {
+
+    /* Mittlere Bildschirme */
+
+    .col-1 {
+        width: 33.33333333333333%;
+        height: auto;
+    }
+
+    .col-2 {
+        width: 33.33333333333333%;
+        height: auto;
+    }
+
+    .col-3 {
+        width: 66.66666666666667%;
+        height: auto;
+    }
+
+    .col-4 {
+        width: 66.66666666666667%;
+        height: auto;
+    }
+
+    .col-5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-6 {
+        width: 100%;
+        height: auto;
+    }
 }
