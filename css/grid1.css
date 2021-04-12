@@ -3,6 +3,10 @@
    float: left; 
 }
 
+div {
+    border: thin solid grey;
+}
+
 .col-1 {
     width: 16.66666666666667%;
     height: auto;
